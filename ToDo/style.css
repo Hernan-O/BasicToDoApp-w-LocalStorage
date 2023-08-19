@@ -5,10 +5,6 @@
 
 /* #5b7065, black */
 body {
-  background: rgba(75, 0, 132, 0); 
-  background: -webkit-radial-gradient(center, rgba(110, 3, 232, 0) 0%, rgba(0, 0, 0, 1.0) 100%);
-  background: -moz-radial-gradient(center, rgba(75, 0, 155, 0.551) 0%, rgba(0, 0, 0, 1.0) 100%);
-  background: radial-gradient(ellipse at top, rgb(95, 0, 146) 0%, rgba(0, 0, 0, 1.0) 100%);
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
 }
@@ -18,6 +14,16 @@ button {
   cursor: pointer;
   color: #f7f7f7;
   background-color: #c9d1c800;
+}
+
+.bgVideo{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .app {
@@ -141,5 +147,4 @@ textarea:focus {
   .to-do-input input {
     width: 300px;
   }
-
 }
