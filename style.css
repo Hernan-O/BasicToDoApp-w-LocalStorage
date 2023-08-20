@@ -68,7 +68,12 @@ button {
 .to-do-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.to-do-list:hover {
+  transform: scale(1.06);
 }
 
 .to-do-list i {
