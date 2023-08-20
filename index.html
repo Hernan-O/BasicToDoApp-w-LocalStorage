@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
+    <title>AplicacionToDo</title>
+</head>
+<body>
+    <main class = "app"> 
+        <video autoplay loop muted plays-inline class="bgVideo">
+            <source src="Video/video.mp4" type = "video/mp4">
+        </video>
+        <h1>To Do:</h1>
+        <div class="input-header">
+            <h1><span id = "fecha"></span></h1>
+            <div class="to-do-input">
+                <input type="text" id="item" placeholder="Ingresar una tarea"><button id = "enter">Enter</button>
+            </div>
+        </div>
+        <div class="to-do-list"></div>
+    </main>
+    <script src = "script.js"></script>
+
+</body>
+</html>
